@@ -3,5 +3,5 @@ project(Red_black_tree_class)
 
 set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
 
-set(SOURCE_FILES main.cpp)
+set(SOURCE_FILES main.cpp RBtree.h)
 add_executable(Red_black_tree_class ${SOURCE_FILES})
